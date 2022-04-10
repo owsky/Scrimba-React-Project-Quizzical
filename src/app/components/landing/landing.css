@@ -1,0 +1,50 @@
+#landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#landing-header {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  color: #293264;
+}
+
+#landing-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  margin-top: 7px;
+}
+
+.landing-button {
+  height: 52px;
+  width: 193px;
+  border: none;
+  border-radius: 15px;
+  background-color: #4d5b9e;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+.landing-button-disabled {
+  height: 52px;
+  width: 193px;
+  border: none;
+  border-radius: 15px;
+  background-color: #535353;
+  margin-top: 29px;
+}
+
+#landing-button-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f5f7fb;
+}

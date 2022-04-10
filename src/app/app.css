@@ -1,0 +1,39 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/inter-v8-latin-regular.woff2") format("woff2"); /* Super Modern Browsers */
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/inter-v8-latin-500.woff2") format("woff2"); /* Super Modern Browsers */
+}
+/* karla-700 - latin */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/karla-v21-latin-700.woff2") format("woff2"); /* Super Modern Browsers */
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+#blob-yellow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#blob-blue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
